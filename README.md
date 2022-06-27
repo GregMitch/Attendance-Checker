@@ -1,6 +1,6 @@
 # Attendance-Checker
 
-Simple python script that parses through all csv files in the current directory counting the times names appear. Simply need to place all csv files into the same folder as the TimeSaver.py script.
+Simple python script that parses through all csv files in the current directory counting the times names appear. Simply need to place all csv files into the same folder as the TimeSaver.py script and then execute it.
 
 ## Example CSV file
 
