@@ -5,7 +5,7 @@ rootdir = './' #Current directory
 
 attendance_dict = {"Paid by (name)" : 0}
 for file in os.listdir(rootdir):
-    if file != "TimeSaver.py" and file != "README.md" and file != ".git":
+    if file != "TimeSaver.py" and file != "README.md" and file != "ExampleFormat.csv" and file != ".git":
         with open(file, 'r') as csv_file:
             csv_reader = csv.reader(csv_file)
             for line in csv_reader:
